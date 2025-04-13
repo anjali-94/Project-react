@@ -8,13 +8,15 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { initializeApp } from "firebase/app";
 import AuthRoute from './AuthRoute.tsx'
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDFDeu4d7SEf14oOvt2Xf1srXrgxhatfMo",
-  authDomain: "authentication-4de1a.firebaseapp.com",
-  projectId: "authentication-4de1a",
-  storageBucket: "authentication-4de1a.appspot.com",
-  messagingSenderId: "557948049995",
-  appId: "1:557948049995:web:304a208c21fabf6d378bce"
+  apiKey: "AIzaSyBKGyqYJZ98u8lBCrdGF5cXAObq66qYLEs",
+  authDomain: "project-5a41c.firebaseapp.com",
+  projectId: "project-5a41c",
+  storageBucket: "project-5a41c.firebasestorage.app",
+  messagingSenderId: "117040046097",
+  appId: "1:117040046097:web:68e9fbe2169ec0b6ef91b0",
+  measurementId: "G-5GVHFQXEM4"
 };
 
 initializeApp(firebaseConfig);
